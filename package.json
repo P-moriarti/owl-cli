@@ -1,0 +1,37 @@
+{
+  "name": "owl-cli",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "owl": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.94.0",
+    "better-sqlite3": "^12.6.2",
+    "chalk": "^5.6.2",
+    "commander": "^14.0.3",
+    "dotenv": "^16.6.1",
+    "inquirer": "^13.2.5",
+    "openai": "^6.22.0",
+    "ora": "^9.3.0",
+    "pg": "^8.18.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^25.2.3",
+    "@types/pg": "^8.16.0",
+    "typescript": "^5.9.3"
+  }
+}
